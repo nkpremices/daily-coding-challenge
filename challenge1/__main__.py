@@ -1,5 +1,4 @@
-
-def addUpTo(key, store):
+def add_up_to(key, store):
     for _ in store:
         for __ in store:
             if _ == __:
@@ -11,6 +10,6 @@ def addUpTo(key, store):
     return False
 
 
-print(addUpTo(25, [10, 15, 3, 7]))
-
-print('--end--')
+if __name__ == "__main__":
+    print(add_up_to(25, [10, 15, 3, 7]))
+    print('--end--')
